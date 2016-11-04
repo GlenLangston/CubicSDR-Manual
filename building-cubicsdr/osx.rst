@@ -32,10 +32,10 @@ Homebrew:
    .. installing ..
    ccliffe$ git clone https://github.com/jgaeddert/liquid-dsp.git
    ccliffe$ cd liquid-dsp
-   liquid-dsp$ ./bootstrap.sh
-   liquid-dsp$ ./configure --enable-fftoverride 
+   liquid-dsp$ sudo ./bootstrap.sh
+   liquid-dsp$ sudo ./configure --enable-fftoverride 
    .. configuring ..
-   liquid-dsp$ make -j4
+   liquid-dsp$ sudo make -j4
    .. building ..
    liquid-dsp$ sudo make install
    .. installing ..
